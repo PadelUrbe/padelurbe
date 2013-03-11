@@ -1,0 +1,265 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Crunchy Responsive Creative Template Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Crunchy Responsive Creative Template&rdquo; Documentation by &ldquo;Damojo&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Crunchy Responsive Creative Template&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 21/08/2012<br>
+					By: Damojo<br>
+					Contact: <a href="http://themeforest.net/user/damojo">Themeforest Profile</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my template. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/damojo">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+            <li><a href="#fonts">Google Fonts</a></li>
+			<li><a href="#php">PHP Code Explanation</a></li>
+            <li><a href="#credits">Sources and Credits</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+        <img src="assets/images/image_a.jpg"/>
+        <p><br/><span style="color: #FF0000;">(Important!)</span> You bought a static HTML template. The search, comments, blog pagination and everything which is a WordPress functionality does not work in this template. If you need the WordPress version of this template with an admin system you can get it <a href="http://themeforest.net/item/Crunchy-responsive-business-wordpress-theme/2480556?ref=damojo" target="_blank">here</a>.</p>
+		<p>The template has 16 different layout pages which, all with their own features and purposes. In the following section I will talk about each available page in detail:</p> 
+
+		<b>Highlight Color</b>
+        <p>
+        <ul>
+        	<li>If you want to switch the template color scheme to any color open <em>css/screen.css</em> and <em>css/base.css</em> with any editor program like notepad++ or dreamweaver</li>
+            <li>Do a search and replace (ctrl + f) and replace "#ffc539" (default yellow) with you target color</li>
+            <li>Another file you need to change is the <em>js/screen.js</em> where you can change the effect color via a parameter on top of the file.</li>
+        </ul>
+        </p>
+        
+        <b>Backgrounds</b>
+        <p>
+        <ul>
+        	<li>In every html page you will find the "Site Backgrounds" code comment below which you can do all changes regarding the page background.</li>
+            <li>If you want to use a fullsize background image for a page, simply change the image path.</li>
+            <li>Remove the background image line and the code comments around the tiledbackground div if you want a tiled background. The background tile can be specified in the <em>css/screen.css</em> ".tiledbackground" class.</li>
+        </ul>
+        </p>
+        
+        <b>Header, Footer Layout</b>
+        <p>
+        <ul>
+        	<li>In order to set the layout options seen in the item preview, you need to switch around a few css classes on each page.</li>
+            <li>What you need to do in order to change the header layout from column to wide is explained in the code comments below the "Site Backgrounds" part on each page.</li>
+            <li>The same applies for the "Footer" and "Subfooter" code comments closer to the bottom of each page.</li>
+        </ul>
+        </p>
+        
+        <b>Home pages</b>
+        <p>
+        <ul>
+        	<li>There are 4 different example home page layouts.</li>
+            <li><h6>index.html</h6>The full feature homepage layout.</li>
+            <li><h6>index_alternative.html</h6>Another homepage layout example with filterable portfolio.</li> 
+            <li><h6>index_noslider.html</h6>Homepage example with vimeo video instead of slider.</li> 
+            <li>For slider configuration help see here <a href="#javascript">JavaScript</a></li>
+        </ul>
+        </p>
+        
+        <b>Content pages</b>
+        <p>
+        <ul>
+        	<li>There are 7 content page examples.</li>s
+            <li><h6>page_shortcodes.html</h6>An example page with tabs, accordions, pricing tables, videos and lightbox thumbs.</li>
+            <li><h6>page_clients.html</h6>The clients page with a text block on top.</li>
+            <li><h6>page_full.html</h6>A full-width content page with column/typography examples.</li>
+            <li><h6>page_sidebar_left.html</h6>A content page with sidebar with column/typography examples.</li>
+            <li><h6>page_sidebar_right.html</h6>A content page with sidebar with column/typography examples.</li>
+        </ul>
+        </p>
+        
+        <b>Portfolio Pages</b>
+        <p>
+        <ul>
+        	<li>There are 2 pages included that are related to the portfolio.</li>
+            <li><h6>portfolio_4column.html</h6>A 4 column portfolio overview page.</li>
+            <li><h6>portfolio_1column_full.html</h6>A blog-like 1 column portfolio overview page.</li>
+            <li><h6>portfolio_single.html</h6>A single portfolio page with slideshow.</li>
+        </ul>
+        </p>
+        
+        <b>Blog Pages</b>
+        <p>
+        <ul>
+            <li><h6>blog_overview.html</h6>The blog overview page with examples for blogposts with image, slideshow, youtube, vimeo and audio.</li>
+            <li><h6>blog_single.html</h6>A single blogpost page with a slideshow example.</li>
+            <li><h6>blog_overview_full.html</h6>A full blog overview page with no sidebar.</li>
+            <li><h6>blog_single_full.html</h6>A single full blogpost page with a slideshow example.</li>
+        </ul>
+        </p>
+        
+        <b>Contact page</b>
+        <p>
+        <ul>
+            <li>The contact page.</li>
+            <li><h6>contact.html</h6></li>
+            <li>Featuring a google map and text area. Google map configuration is described here: <a href="#javascript">JavaScript</a>. The contact form on this page is fully functional (For configuration please see <a href="#php">PHP Code Explanation</a>)</li>
+        </ul>
+        </p>
+
+		<hr>
+
+		<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+        <img src="assets/images/image_b.jpg"/>
+
+		<p>There are 2 CSS files used in this template which are relevant for style changes and modifications.</p> 
+
+        <b>Main CSS File:</b>
+        <p>
+        <ul>
+        <li><h6>css/screen.css</h6>Contains most of the page and layout related template styles.</li>
+        <li><h6>css/base.css</h6>Contains basic styles like fonts, forms, buttons, links styles, etc.</li>
+        </ul>
+        </p>
+        
+        <b>General Info</b>
+		<p>
+        <ul>
+        <li>The other css files are reset.css which contains basic browser reset styles, skeleton.css which contains responsive related basic skeleton styles.</li>
+		<li>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</li>
+</ul>
+		<hr>
+		
+		<h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+        <img src="assets/images/image_c.jpg"/>
+		
+		<p>Only one of the templates javascript files is relevant for customization which is the <b>js/screen.js</b>. In this section I will go over all the important customization options of the individual javascript.</p>
+        
+        <b>Portfolio 4 Column effect</b>
+		<p>
+        <ul>
+        <li>This is done below this comment:
+        <pre>/* Portfolio 4 Column */</pre></li>
+        <li>You can set the animation speed of the portfolio in milliseconds.</li>
+        <li>The only option is 4 rows, please don't attempt to change that.</li>
+        <li>Setting the "nonSelectedAlpha" value to 0 will cause the portfolio items to fadeout completely when filtering. Setting a value between 1 and 100 will create the opacity effect as seen in the 4-column portfolio of the demo.</li>
+        </ul>
+        </p>
+        
+        <b>Slider</b>
+		<p>
+        <ul>
+        <li>This is done below this comment:
+        <pre>/* Init FlexSlider */</pre></li>
+        <li>Changeable settings: slideshowSpeed, animationDuration, randomize</li>
+        </ul>
+        </p>
+        
+        <b>Twitter Feed</b>
+		<p>
+        <ul>
+        <li>This is done below this comment:
+        <pre>/* Tweet List */</pre></li>
+        <li>Please set your twitter account name and the desired number of feeds here:<br/><pre>http://twitter.com/status/user_timeline/envato.json?count=3&callback=?</pre></li>
+        </ul>
+        </p>
+        
+        <b>Google Maps</b>
+		<p>
+        <ul>
+        <li>This is configured in the contact.html at the very bottom.
+        <pre>/* Google Maps Init */</pre></li>
+        <li>You can set the desired longitute and latitude (Use a tool like this: http://universimmedia.pagesperso-orange.fr/geo/loc.htm)</li>
+        <li>Zoom factors and hover title can also be set.</li>
+        </ul>
+        </p>
+        
+		<hr>
+		
+		<h3 id="fonts"><strong>D) Google Fonts</strong> - <a href="#toc">top</a></h3>
+        <img src="assets/images/image_d.jpg"/>
+        
+        <p> 
+        The template uses no additonal google web fonts but you can add fonts if needed.
+        </p>
+        
+        <p>
+        In the <a href="http://www.google.com/webfonts#ChoosePlace:select">Google Web Font Directory</a> you can choose different fonts and add the code to the header of each page.
+        </p>
+        
+		<hr>
+		
+		<h3 id="php"><strong>E) PHP Code Explanation</strong> - <a href="#toc">top</a></h3>
+        <img src="assets/images/image_e.jpg"/>
+		
+		<p>There are 2 PHP files included: <em>php/contact.php</em> and <em>php/quickcontact.php</em>.</p>
+        <p>The first is used for the contact form on the contact page. At the top you can add your email the contact page mails should be send to. As the mail is send as an HTML mail you can slo customize the appearance of the html body.</p>
+        <p>The quickcontact.php is used for the quickcontact widget in the footer at the bottom of each page. Also add the recieving email address at the top.</p>
+        <p><b>Note: In order to send emails via the forms you need a PHP compatible Server with the mail function allowed!</b></p>
+		
+		<hr>
+		
+		<h3 id="credits"><strong>F) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've used the following images, icons or other files as listed.
+		
+		<ul>
+			<li>Template demo images licensed from <a href="http://us.fotolia.com">Fotolia</a> for preview usage. Please do not attempt to rip the images from the preview!</li>
+            <li>"You're my Bright Star" Demo Song by <a href="http://audiojungle.net/item/youre-my-bright-star/1420434">Soundroll<a></li>
+            <li><a href="http://jquery.com/">JQuery</a>
+            <li><a href="http://www.google.com/webfonts">Google Web Fonts</a></li>
+            <li><a href="http://flex.madebymufffin.com/">FlexSlider</a></li>
+            <li><a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">PrettyPhoto</a></li>
+            <li><a href="http://www.bitstorm.org/jquery/color-animation/">JQuery Animate Colors</a></li>
+            <li><a href="http://cortys.de/cssAnimate/">cssAnimate</a></li>
+            <li><a href="http://gsgd.co.uk/sandbox/jquery/easing/">JQuery Easing</a></li>
+            <li><a href="http://fitvidsjs.com/">FitVids</a></li>
+            <li><a href="http://mediaelementjs.com/">MediaElement.js</a></li>
+            <li><a href="http://www.dynamicdrive.com/dynamicindex1/ddsmoothmenu.htm">Smooth Navigational Menu</a> by dynamic drive</li>
+            <li><a href="http://iconsweets2.com/">Parts of Iconsweets 2</a></li>
+            <li><a href="http://splashyfish.com/icons/">Parts of Splashy Icons</a></li>
+            <li><a href="http://ralphwhitbeck.com/2007/11/20/PullingTwitterUpdatesWithJSONAndJQuery.aspx">Linkify and Relative Time functions</a> by Ralph Whitbeck</li>
+            <li><a href="http://http://www.getskeleton.com/">Skeleton</a></li>
+		</ul>
+		
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this template. As I said at the beginning, I'd be glad to help you if you have any questions relating to this template. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>Thanks for your Purchase, Damojo</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
