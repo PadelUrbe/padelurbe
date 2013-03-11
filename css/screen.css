@@ -197,7 +197,12 @@
 	}
 	/* Fin del formulario de login*/
 		
-	/* Menu cristal roto PC (ancho superior a 767px) */
+	/* Cambio: Menu cristal roto PC (ancho superior a 767px) */
+	
+	.recuperar-pass {
+		font-size: 12px;
+	}
+	
 	.roturacristal {
 	background-image: url(../images/roturacristal.png);
 	background-repeat: no-repeat;
@@ -905,6 +910,10 @@ box-shadow: 0 0 100px 30px #888; }
         .mapsholder { margin-bottom: 0; }
         
         /* Cambio: Menu Cristal roto móvil (ancho máx. 767px) */
+       
+       .recuperar-pass {
+       	font-size: 8px;
+       }
        
     	.roturacristal {
 	      	background-image: url(../images/roturacristalopaca.png);
