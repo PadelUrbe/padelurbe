@@ -209,42 +209,59 @@
 	margin-right: auto;
 	margin-bottom: 50px;
 	}
-	.rotura1 {
+	.rotura1 {  /*registro*/
 	width:146px;
-	height:125px;
-	background-image: url(../images/rotura1.png);
-	background-repeat: no-repeat;
+	max-height:150px;
 	position: absolute;
-	top: 44px;
-	left: 47px;
+	top: 27px;
+	left: 31px;
+	font-family:Randi;
+	font-size:18px;
+	color: #000;
+	height: 139px;
+	text-align: left;
 	}
-	.rotura2 {
+	.rotura2 {            /*noticias*/
 	position: absolute;
-	background-image: url(../images/rotura2.png);
 	width:144px;
-	height:126px;
-	background-repeat: no-repeat;
+
+
+	max-height:140px:
 	top: 50px;
-	left: 478px;
+	left: 497px;
+	font-family:Randi;
+	font-size:18px;
+	color: #000;
+	text-align: right;
+	height: 122px;
+	top: 2px;
+	
 	}
-	.rotura3 {
+	.rotura3 {           /*pistas*/
 	position: absolute;
-	background-image: url(../images/rotura3.png);
 	width:154px;
-	height:129px;
-	background-repeat: no-repeat;
-	top: 284px;
-	right: 471px;
+	max-height:150px;
+	top: 292px;
+	right: 495px;
+	font-family:Randi;
+	font-size:18px;
+	color: #000;
+	text-align: left;
 	}
-	.rotura4 {
+	.rotura4 {       /*galeria*/
 	position: absolute;
-	background-image: url(../images/rotura4.png);
 	width:148px;
-	height:126px;
-	background-repeat: no-repeat;
-	top: 256px;
-	right: 61px;
-	}
+	max-height:150px;
+	top: 253px;
+	right: 40px;
+	font-family:Randi;
+	font-size:18px;
+	color: #000;
+	height: 38px;
+	text-align: right;
+
+}
+	
 	/* Fin menu cristal roto PC */
 	
 	.homeslider { margin-bottom: 20px; border-bottom: 1px solid #000; }
