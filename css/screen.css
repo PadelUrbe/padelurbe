@@ -197,7 +197,7 @@
 	}
 	/* Fin del formulario de login*/
 		
-	/* Cambio: Menu cristal roto PC (ancho superior a 767px) */
+	/* Cambio: ancho superior a 767px */
 	
 	.recuperar-pass {
 		font-size: 12px;
@@ -264,8 +264,15 @@
 	color: #000;
 	height: 38px;
 	text-align: right;
-
-}
+	}
+	
+	.banner-sidebar {
+		color: #404040;
+		background-color: #00191F;
+		height: 300px; /* largo provicional */
+		margin-bottom: 40px;
+		width: 100%;
+	}
 	
 	/* Fin menu cristal roto PC */
 	
