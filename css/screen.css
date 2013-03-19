@@ -34,7 +34,13 @@
 
 /* Background */	
 
-	#bgformreg, #bgblog {background-color:#003a4a; }
+	#bgformreg, #bgblog {
+	background-color:#003a4a;
+	background-image: url(file:///C|/inetpub/padelurbe/images/fondo2000x1000.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center 200px;	
+	}
 
 	
 	.bgregister {
