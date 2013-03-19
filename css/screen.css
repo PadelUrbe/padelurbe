@@ -271,15 +271,7 @@
 	height: 38px;
 	text-align: right;
 	}
-	
-	.banner-sidebar {
-		color: #404040;
-		background-color: #00191F;
-		height: 300px; /* largo provicional */
-		margin-bottom: 40px;
-		width: 100%;
-	}
-	
+		
 	/* Fin menu cristal roto PC */
 	
 	.homeslider { margin-bottom: 20px; border-bottom: 1px solid #000; }
@@ -430,6 +422,16 @@ box-shadow: 0 0 100px 30px #888; }
 
 /* Sidebar */
 
+	.banner-sidebar {
+		color: #404040;
+		background-color: #00191F;
+		height: 300px; /* largo proviional */
+		margin-bottom: 40px;
+		width: 100%;
+	    border-bottom-color: rgb(0, 0, 0);
+	    border-bottom-style: solid;
+    	border-bottom-width: 1px;
+	}
 	.sidebar .widget { float: left; margin-bottom: 50px; width: 100%; }
 	.sidebar { margin-bottom: -40px; }
 	.sidebar .widget h5 { width: 100%; float: left; color: #fff; font-size: 23px; font-weight: bold; letter-spacing: -1px; padding-right: 10px; margin-bottom: 21px; margin-top: -3px; }
