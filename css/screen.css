@@ -36,7 +36,7 @@
 
 	#bgformreg, #bgblog {
 	background-color:#003a4a;
-	background-image: url(file:///C|/inetpub/padelurbe/images/fondo2000x1000.png);
+	background-image: url(../images/fondo2000x1000.png);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center 200px;	
@@ -210,7 +210,7 @@
 	}
 	
 	.roturacristal {
-	background-image: url(../images/roturacristal.png);
+	background-image: url(../images/roturacristal.jpg);
 	background-repeat: no-repeat;
 	width:700px;
 	height:463px;
@@ -948,7 +948,7 @@ box-shadow: 0 0 100px 30px #888; }
        }
        
     	.roturacristal {
-	      	background-image: url(../images/roturacristalopaca.png);
+	      	background-image: url(../images/roturacristalopaca.jpg);
 	      	background-repeat: no-repeat;
 			background-position: center center;
 			width: 417px;
