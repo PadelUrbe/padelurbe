@@ -101,12 +101,7 @@
 }
 	.header { padding-top: 0; padding-bottom: 0; margin-bottom: 0; }
 	.logo { background: url('../images/logo.png') no-repeat left center; float: left; height: 100px; width: 220px; position: relative; z-index: 15; }
-	#mainmenu {
-    float:none;
-	font-family:Arial, Helvetica, sans-serif;
-	color: #999;
-	margin-top: 210px;
-}
+
 	.pagetitle {
 	position: relative;
 	z-index: 999;
@@ -424,8 +419,8 @@ box-shadow: 0 0 100px 30px #888; }
 
 	.banner-sidebar {
 		color: #404040;
-		background-color: #00191F;
-		height: 300px; /* largo proviional */
+		background-image:url('../images/banner/banner6.jpg');
+		height: 300px; /* largo provisional */
 		margin-bottom: 40px;
 		width: 100%;
 	    border-bottom-color: rgb(0, 0, 0);
@@ -573,14 +568,19 @@ box-shadow: 0 0 100px 30px #888; }
 
 /* Mainmenu */	
 	
+	#mainmenu {
+	float:none;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #999;
+	margin-top: 210px;
+}
 	.ddsmoothmenu{
 	position: relative;
-	padding-left: 20%;
 	margin: 0;
 	z-index: 99;
-	width:100%;
+	width: 100%;
 	background-color: #FFF;
-
+	margin-left: 12%;
 }
 	.ddsmoothmenu ul{ z-index: 100; margin: 0; padding: 0; list-style-type: none; margin-top: 0px; }
 	.ddsmoothmenu ul ul{ background: #353535; padding-top: 0px; padding-bottom: 0px; -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5); box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5); border-top: 1px solid #ffc539; }
@@ -592,8 +592,8 @@ box-shadow: 0 0 100px 30px #888; }
 	.ddsmoothmenu ul li a{
 	display: block;
 	text-decoration: none;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 8px;
+	padding-right: 8px;
 	padding-top: 5px;
 	padding-bottom: 0px;
 }
